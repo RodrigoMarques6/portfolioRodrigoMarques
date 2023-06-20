@@ -1,0 +1,15 @@
+#h1-projetos {
+    font-family: "Poppins", "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5vw;
+  }
+  
+  .section-projetos {
+    height: 85vh;
+    max-width: 800px;
+    min-width: 250px;
+    min-height: 30vh;
+    margin: auto;
+  }
+  
