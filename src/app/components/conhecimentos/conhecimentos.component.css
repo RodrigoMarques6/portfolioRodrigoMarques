@@ -10,43 +10,33 @@
     color: #068ae2;
   }
   
-  .logo-html5,
-  .logo-css3,
-  .logo-javascript,
-  .logo-react,
-  .logo-nodejs {
-    color: #068ae2;
-    font-size: 100px;
-    cursor: pointer;
-  }
-  
-  .logo-html5:hover {
-    color: #e34c26;
+  .logo-html:hover {
+    fill: #e34c26;
     font-size: 100px;
   }
   
-  .logo-css3:hover {
-    color: #264de4;
+  .logo-css:hover {
+    fill: #264de4;
     font-size: 100px;
   }
   
   .logo-javascript:hover {
-    color: #f0db4f;
+    fill: #f0db4f;
     font-size: 100px;
   }
   
-  .logo-react:hover {
-    color: #61dbfb;
+  .logo-angular:hover {
+    fill: red;
   }
   
   .logo-nodejs:hover {
-    color: #3c873a;
+    fill: #3c873a;
   }
   
-  #p-html5,
-  #p-css3,
+  #p-html,
+  #p-css,
   #p-javascript,
-  #p-react,
+  #p-angular,
   #p-nodejs {
     color: white;
     font-family: "Poppins";
@@ -73,25 +63,19 @@
       text-align: center;
     }
   
-    #p-html5,
-    #p-css3,
+    #p-html,
+    #p-css,
     #p-javascript,
-    #p-react,
+    #p-angular,
     #p-nodejs {
       margin-bottom: 20px;
     }
   }
 
-  .logo-html {
-    background-color: #61dbfb;
-    border: 2px solid red;
-    height: 100px;
-    width: 100px;
-  }
+  
+.logo-html, .logo-css, .logo-javascript, .logo-angular, .logo-nodejs {
+  fill: #068ae2;
+  height: 150px;
+  width: 150px;
+} 
 
-  .logo-angular {
-    background-color: #61dbfb;
-    border: 2px solid red;
-    height: 100px;
-    width: 100px;
-  }
