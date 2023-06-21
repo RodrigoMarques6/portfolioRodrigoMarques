@@ -1,0 +1,17 @@
+.section1 {
+    color: white;
+    height: 70vh;
+    padding: 1em;
+    font-size: 1em;
+  }
+  
+  #p1-section1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #068ae2;
+  }
+  
+  #p2-section1 {
+    font-size: 0.8em;
+    color: white;
+  }

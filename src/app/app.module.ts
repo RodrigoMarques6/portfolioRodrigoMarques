@@ -7,6 +7,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { ConhecimentosComponent } from './components/conhecimentos/conhecimentos.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     ConhecimentosComponent,
     ProjetosComponent,
     RodapeComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule
