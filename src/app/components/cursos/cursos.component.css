@@ -1,0 +1,42 @@
+#h1-cursos {
+    font-family: "Poppins", "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5vw;
+  }
+  
+  .section-cursos {
+    height: 90vh;
+    padding: 0% 10%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .div-cursos {
+    margin-top: 5vw;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .div-rocketseat, .div-udemy, .div-devmedia, .div-dio {
+    border: 1px solid #068ae2;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-image: linear-gradient(black, #030638);
+    max-width: 800px;
+  }
+  
+  .div-rocketseat:hover, .div-udemy:hover, .div-devmedia:hover, .div-dio:hover {
+    border: 1px solid white;
+  }
+  
+  h4 {
+    color: #068ae2;
+    margin-bottom: 2vw;
+  }
