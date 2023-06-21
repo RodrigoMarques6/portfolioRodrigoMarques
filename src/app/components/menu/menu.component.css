@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
   }
   
   body {
     background-color: black;
     font-family: "Open Sans", sans-serif;
-    /* background-image: linear-gradient(#020720, #000000); */
-    /* background-repeat: no-repeat; */
   }
   
   
@@ -25,7 +24,7 @@
   @media (max-width: 900px) {
     #div-menu {
       font-size: 12px;
-      /* display: none; */
+      
     }
   }
   
@@ -140,4 +139,40 @@
     color: white;
     width: 55%;
     overflow: hidden;
+  }
+
+  .li-home:hover, .li-sobre:hover, .li-conhecimentos:hover, .li-projetos:hover, .li-cursos:hover, .li-contato:hover {
+    cursor: pointer;
+    color: #068ae2;
+  }
+
+  .section1 {
+    color: white;
+    height: 70vh;
+    padding: 1em;
+    font-size: 1em;
+  }
+  
+  #p1-section1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #068ae2;
+  }
+  
+  #p2-section1 {
+    font-size: 0.8em;
+    color: white;
+  }
+  
+  #span1-logo {
+    font-family: "Poppins";
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    max-width: 40%;
+    margin-left: 2%;
+  }
+  
+  #span2-logo {
+    color: #068ae2;
   }
