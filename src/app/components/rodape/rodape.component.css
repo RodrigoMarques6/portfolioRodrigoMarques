@@ -1,0 +1,29 @@
+* {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+}
+
+.div-rodape {
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
+}
+
+.div-footer1, .div-footer2 {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 0.2%;
+}
+
+.logo-instagram, .logo-linkedin, .logo-github, .logo-email {
+    fill: white;
+    height: 30px;
+    width: 30px;
+    padding: 0.9%;
+}
+
+.section-footer {
+    border-top: 1px solid #068ae2;
+}
