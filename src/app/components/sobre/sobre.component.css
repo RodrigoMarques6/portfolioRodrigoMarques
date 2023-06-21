@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
 #div-do-sobreMim {
     display: flex;
     max-width: 800px;
     min-width: 250px;
     min-height: 60vh;
-    /* background-color: bisque; */
     margin: auto;
     text-align: center;
     margin-top: 20px;
@@ -44,7 +46,7 @@
   
   #btn-curriculo:hover {
     background-color: #068ae2;
-    color: #020720;
+    color: white;
   }
   
   #p-sobreMim {
@@ -55,8 +57,14 @@
     min-width: 250px;
     margin: auto;
     margin-bottom: 1vh;
+    font-family: 'Poppins';
   }
   
   #img-perfil {
     padding: 20px;
+  }
+
+  a {
+    font-family: 'Poppins';
+    font-weight: bold;
   }
