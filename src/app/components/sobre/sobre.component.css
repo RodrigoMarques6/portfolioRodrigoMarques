@@ -1,75 +1,75 @@
 #div-do-sobreMim {
-    display: flex;
-    max-width: 800px;
-    min-width: 250px;
-    min-height: 50vh;
-    margin: auto;
-    text-align: center;
-    margin-top: 20px;
+  display: flex;
+  max-width: 800px;
+  min-width: 250px;
+  min-height: 50vh;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.div2-sobre {
+  margin-left: 5%;
+}
+
+@media (max-width: 699px) {
+  #div-do-sobreMim {
+    padding: 30px;
+    display: block;
   }
 
-  .div2-sobre {
-    margin-left: 5%;
-  }
-  
-  @media (max-width: 699px) {
-    #div-do-sobreMim {
-      padding: 30px;
-      display: block;
-    }
-  
-    #img-perfil {
-      padding: 20px;
-      width: 60%;
-    }
-  }
-  
-  #h1-do-sobreMim {
-    font-family: "Poppins", "Open Sans", sans-serif;
-    color: white;
-    text-align: center;
-    margin-top: 5vw;
-  }
-  
-  #span-do-sobreMim {
-    font-family: "Poppins", "Open Sans", sans-serif;
-    color: #068ae2;
-  }
-  
-  #btn-curriculo {
-    padding: 10px;
-    border-radius: 2%;
-    border: 1px solid #068ae2;
-    font-size: 1em;
-    text-decoration: none;
-    color: #068ae2;
-  }
-  
-  #btn-curriculo:hover {
-    background-color: #068ae2;
-    color: white;
-  }
-  
-  #p-sobreMim {
-    color: white;
-    text-align: justify;
-    padding: 10px;
-    max-width: 800px;
-    min-width: 250px;
-    margin: auto;
-    margin-bottom: 1vh;
-    font-family: 'Poppins';
-  }
-  
   #img-perfil {
     padding: 20px;
+    width: 60%;
   }
+}
 
-  a {
-    font-family: 'Poppins';
-    font-weight: bold;
-  }
+#h1-do-sobreMim {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+}
 
-  .teste {
-    border: 1px solid red;
-  }
+#span-do-sobreMim {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: #068ae2;
+}
+
+#btn-curriculo {
+  padding: 10px;
+  border-radius: 2%;
+  border: 1px solid #068ae2;
+  font-size: 1em;
+  text-decoration: none;
+  color: #068ae2;
+}
+
+#btn-curriculo:hover {
+  background-color: #068ae2;
+  color: white;
+}
+
+#p-sobreMim {
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  max-width: 800px;
+  min-width: 250px;
+  margin: auto;
+  margin-bottom: 1vh;
+  font-family: "Poppins";
+}
+
+#img-perfil {
+  padding: 20px;
+}
+
+a {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.teste {
+  border: 1px solid red;
+}
