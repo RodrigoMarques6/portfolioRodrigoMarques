@@ -13,10 +13,9 @@
 
 .div-footer1,
 .div-footer2 {
-  width: 30%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  padding: 0.2%;
 }
 
 .logo-instagram,
@@ -31,4 +30,8 @@
 
 .section-footer {
   border-top: 1px solid #068ae2;
+}
+
+.span-final {
+    text-align: center;
 }
