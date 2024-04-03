@@ -50,11 +50,16 @@
   justify-content: space-between;
 }
 
-.section-conhecimentos {
+/* .section-conhecimentos {
   max-width: 800px;
   min-width: 250px;
   min-height: 30vh;
   margin: auto;
+} */
+
+.section-conhecimentos {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 @media (max-width: 585px) {

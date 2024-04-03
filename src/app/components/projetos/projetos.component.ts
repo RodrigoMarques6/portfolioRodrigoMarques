@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './projetos.component.html',
   styleUrls: ['./projetos.component.css'],
 })
-export class ProjetosComponent {}
+export class ProjetosComponent {
+  projeto4 = 'Consumo de API - Tabela Campeonato Brasileiro Série B'
+}
