@@ -8,6 +8,12 @@ import { ProjetosComponent } from './components/projetos/projetos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { HomeComponent } from './components/home/home.component';
 import { ExperienciasComponent } from './components/experiencias/experiencias.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatIconModule } from '@angular/material/icon';
+
+
 
 @NgModule({
   declarations: [
@@ -20,7 +26,7 @@ import { ExperienciasComponent } from './components/experiencias/experiencias.co
     HomeComponent,
     ExperienciasComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, BrowserAnimationsModule, MatMenuModule, MatRadioModule, MatIconModule],
   providers: [],
   bootstrap: [AppComponent],
 })
