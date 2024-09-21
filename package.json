@@ -20,8 +20,11 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "flowbite": "^2.5.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "tw-elements": "^2.0.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
@@ -36,8 +39,8 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "postcss": "^8.4.45",
-    "tailwindcss": "^3.4.11",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
     "typescript": "~5.1.3"
   }
 }
