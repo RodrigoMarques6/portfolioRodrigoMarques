@@ -1,35 +1,82 @@
-<div class="flex lg:flex-1">
-  <span class="text-blue-400 text-xl font-bold"
-    >Minhas<span class="text-white">Experiências</span>.</span
-  >
-</div>
+<section class="p-4 sm:p-16 md:p-16 lg:p-16 xl:p-16">
+  <div class="flex lg:flex-1">
+    <span class="text-blue-400 text-xl font-bold"
+      >Minhas<span class="text-white">Experiências</span>.</span
+    >
+  </div>
 
-<section class="section-experiencias">
-  <div>
-    <p>
-      • Estágio remoto: JUCEAL. Atendimento ao contribuinte e suporte técnico ao
-      portal Facilita Alagoas; <br />– {{ descricaoJuceal }}
-    </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div class="text-white p-6 rounded-lg shadow-lg border border-blue-400">
+      <h2 class="text-2xl font-bold text-blue-400 mb-4">
+        Estágio remoto: JUCEAL
+      </h2>
+
+      <ul class="list-disc list-inside mb-4">
+        <li *ngFor="let itemJuceal of descricaoJuceal">{{ itemJuceal }}</li>
+      </ul>
+      <div class="flex space-x-2">
+        <span class="bg-green-500 text-white text-sm px-2 py-1 rounded-full"
+          >Online</span
+        >
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >Typescript</span
+        >
+      </div>
+    </div>
+
+    <div class="text-white p-6 rounded-lg shadow-lg border border-blue-400">
+      <h2 class="text-2xl font-bold text-blue-400 mb-4">
+        Estágio híbrido: SENAI ALAGOAS
+      </h2>
+
+      <ul class="list-disc list-inside mb-4">
+        <li *ngFor="let itemSenai of descricaoSenai">{{ itemSenai }}</li>
+      </ul>
+      <div class="flex space-x-2">
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >React JS</span
+        >
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >Typescript</span
+        >
+      </div>
+    </div>
+
+    <div class="text-white p-6 rounded-lg shadow-lg border border-blue-400">
+      <h2 class="text-2xl font-bold text-blue-400 mb-4">
+        Trainee híbrido: YELLOW KITE DIGITAL 360
+      </h2>
+      <ul class="list-disc list-inside mb-4">
+        <li *ngFor="let itemYellow of descricaoYellowKite">{{ itemYellow }}</li>
+      </ul>
+      <div class="flex space-x-2">
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >RD Conversas</span
+        >
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >WhatsApp API</span
+        >
+      </div>
+    </div>
+
+    <div class="text-white p-6 rounded-lg shadow-lg border border-blue-400">
+      <h2 class="text-2xl font-bold text-blue-400 mb-4">
+        Freelancer remoto: SOFTBASE
+      </h2>
+
+      <ul class="list-disc list-inside mb-4">
+        <li *ngFor="let itemSoftbase of descricaoSoftbase">
+          {{ itemSoftbase }}
+        </li>
+      </ul>
+      <div class="flex space-x-2">
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >Angular</span
+        >
+        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
+          >Nest.js</span
+        >
+      </div>
+    </div>
   </div>
-  <div>
-    <p>
-      • Estágio híbrido: SENAI ALAGOAS. Soluções digitais em suporte técnico e
-      desenvolvimento Front-End;<br />– {{ descricaoSenai }}
-    </p>
-  </div>
-  <div>
-    <p>
-      • Trainee híbrido: YELLOW KITE DIGITAL 360. Integrações com APIs de chat
-      e-commerce, desenvolvimento;
-      <br />
-      – {{ descricaoYellowKite }}
-    </p>
-  </div>
-  <div>
-    <p>
-      • Freelancer remoto: SOFTBASE. Desenvolvimento web Front-End <br />–
-      {{ descricaoSoftbase }}
-    </p>
-  </div>
-  <p>Tecnologias utilizadas: Adicionar aqui tecnologias utilizadas</p>
 </section>
