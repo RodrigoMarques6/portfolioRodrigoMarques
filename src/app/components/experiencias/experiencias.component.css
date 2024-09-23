@@ -1,1 +1,4 @@
+.hover\:border-gradient-to-r:hover {
+  border-image: linear-gradient(to right, #3b82f6, #8b5cf6) 1;
+}
 
