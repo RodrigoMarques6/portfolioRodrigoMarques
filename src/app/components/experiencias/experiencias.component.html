@@ -13,13 +13,14 @@
       <ul class="list-disc list-inside mb-4">
         <li *ngFor="let itemYellow of descricaoYellowKite">{{ itemYellow }}</li>
       </ul>
-      <div class="flex space-x-2">
-        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
-          >RD Conversas</span
-        >
-        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
-          >WhatsApp API</span
-        >
+      <div class="max-sm:grid max-sm:grid-cols-5 flex space-x-2">
+        <app-icons techName="HTML5"></app-icons>
+        <app-icons techName="CSS3"></app-icons>
+        <app-icons techName="Wordpress"></app-icons>
+        <div class="flex flex-col items-center">
+          <img src="assets/icons/whats-API.svg" height="40px" width="40px" />
+          <p class="text-img">API Whats</p>
+        </div>
       </div>
     </div>
 
@@ -31,7 +32,7 @@
           {{ itemSoftbase }}
         </li>
       </ul>
-      <div class="flex space-x-2">
+      <div class="max-sm:grid max-sm:grid-cols-5 flex space-x-2">
         <app-icons techName="HTML5"></app-icons>
         <app-icons techName="CSS3"></app-icons>
         <app-icons techName="Angular"></app-icons>
@@ -50,7 +51,7 @@
         <li *ngFor="let itemSenai of descricaoSenai">{{ itemSenai }}</li>
       </ul>
 
-      <div class="flex space-x-2">
+      <div class="max-sm:grid max-sm:grid-cols-4 flex space-x-2">
         <app-icons techName="HTML5"></app-icons>
         <app-icons techName="CSS3"></app-icons>
         <app-icons techName="Angular"></app-icons>
