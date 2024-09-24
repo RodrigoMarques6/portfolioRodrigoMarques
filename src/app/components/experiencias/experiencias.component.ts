@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IconsComponent } from '../icons/icons.component';
 
 @Component({
   selector: 'app-experiencias',
@@ -18,8 +19,6 @@ export class ExperienciasComponent {
     'Azure Devops para organização de tasks;',
     'Controle de versão - GIT;',
     'Suporte Técnico em sistemas web por email.',
-
-    // Typescript/Javascript), back-end com nest.js. Utilização do , forte uso da metodologia scrum, contendo daily, planning, retrospectiva e review e  diretamente em contato com o usuário. A atuação principal com foco em sistemas voltados à indústria e escolas do SESI.'
   ];
 
   descricaoYellowKite: string[] = [
@@ -37,6 +36,4 @@ export class ExperienciasComponent {
     'Click-up como controle de tasks;',
     'Auto gerenciamento na ausência do P.O.',
   ];
-
-  // com Angular, Tailwind, CSS, Javascript/Typescript. Algumas tasks de back-end com nest.js/node. Git para controle de versão e clickup como controle de tasks.';
 }

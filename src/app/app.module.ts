@@ -12,8 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatIconModule } from '@angular/material/icon';
-
-
+import { IconsComponent } from './components/icons/icons.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,15 @@ import { MatIconModule } from '@angular/material/icon';
     RodapeComponent,
     HomeComponent,
     ExperienciasComponent,
+    IconsComponent,
   ],
-  imports: [BrowserModule, BrowserAnimationsModule, MatMenuModule, MatRadioModule, MatIconModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatMenuModule,
+    MatRadioModule,
+    MatIconModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

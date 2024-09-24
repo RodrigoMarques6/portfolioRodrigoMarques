@@ -32,43 +32,14 @@
         </li>
       </ul>
       <div class="flex space-x-2">
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/html5.svg" width="40px" height="40px" />
-          <p class="text-img">HTML5</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/angular.svg" width="40px" height="40px" />
-          <p class="text-img">Angular</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/css3.svg" width="40px" height="40px" />
-          <p class="text-img">CSS3</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/javascript.svg" width="40px" height="40px" />
-          <p class="text-img">Javascript</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/node-js.svg" width="40px" height="40px" />
-          <p class="text-img">Node.JS</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/tailwind.svg" width="40px" height="40px" />
-          <p class="text-img">Tailwind</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="assets/icons/typescript.svg" width="40px" height="40px" />
-          <p class="text-img">Typescript</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            class="mt-0.5"
-            src="assets/icons/nest.svg"
-            width="40px"
-            height="40px"
-          />
-          <p class="text-img">Nest.JS</p>
-        </div>
+        <app-icons techName="HTML5"></app-icons>
+        <app-icons techName="CSS3"></app-icons>
+        <app-icons techName="Angular"></app-icons>
+        <app-icons techName="Javascript"></app-icons>
+        <app-icons techName="Node"></app-icons>
+        <app-icons techName="Tailwind"></app-icons>
+        <app-icons techName="Typescript"></app-icons>
+        <app-icons class="mt-0.5" techName="Nest"></app-icons>
       </div>
     </div>
     <div class="text-white p-8 rounded-lg shadow-lg border border-blue-400">
@@ -77,13 +48,15 @@
       <ul class="list-disc list-inside mb-4">
         <li *ngFor="let itemSenai of descricaoSenai">{{ itemSenai }}</li>
       </ul>
+
       <div class="flex space-x-2">
-        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
-          >React JS</span
-        >
-        <span class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
-          >Typescript</span
-        >
+        <app-icons techName="HTML5"></app-icons>
+        <app-icons techName="CSS3"></app-icons>
+        <app-icons techName="Angular"></app-icons>
+        <app-icons techName="Javascript"></app-icons>
+        <app-icons techName="Node"></app-icons>
+        <app-icons techName="Tailwind"></app-icons>
+        <app-icons techName="Typescript"></app-icons>
       </div>
     </div>
 
