@@ -7,8 +7,9 @@
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
     <div class="text-white p-8 rounded-lg shadow-lg border border-blue-400">
-      <h2 class="text-lg text-blue-400 mb-4">
-        Trainee híbrido: YELLOW KITE DIGITAL 360
+      <h2 class="text-lg font-bold text-blue-400 mb-4">
+        <span class="text-white font-normal"> Trainee híbrido:</span><br />
+        YELLOW KITE DIGITAL 360
       </h2>
       <ul class="list-disc list-inside mb-4">
         <li *ngFor="let itemYellow of descricaoYellowKite">{{ itemYellow }}</li>
@@ -25,7 +26,10 @@
     </div>
 
     <div class="text-white p-8 rounded-lg shadow-lg border border-blue-400">
-      <h2 class="text-lg text-blue-400 mb-4">Freelancer remoto: SOFTBASE</h2>
+      <h2 class="text-lg text-blue-400 mb-4 font-bold">
+        <span class="text-white font-normal">Freelancer remoto:</span><br />
+        SOFTBASE
+      </h2>
 
       <ul class="list-disc list-inside mb-4">
         <li *ngFor="let itemSoftbase of descricaoSoftbase">
@@ -34,7 +38,6 @@
       </ul>
       <div class="max-sm:grid max-sm:grid-cols-5 flex space-x-2">
         <app-icons techName="HTML5"></app-icons>
-        <app-icons techName="CSS3"></app-icons>
         <app-icons techName="Angular"></app-icons>
         <app-icons techName="Javascript"></app-icons>
         <app-icons techName="Node"></app-icons>
@@ -42,10 +45,15 @@
         <app-icons techName="Typescript"></app-icons>
         <app-icons class="mt-0.5" techName="Nest"></app-icons>
         <app-icons techName="Git"></app-icons>
+        <app-icons techName="Figma"></app-icons>
+        <app-icons techName="Docker"></app-icons>
       </div>
     </div>
     <div class="text-white p-8 rounded-lg shadow-lg border border-blue-400">
-      <h2 class="text-lg text-blue-400 mb-4">Estágio híbrido: SENAI ALAGOAS</h2>
+      <h2 class="text-lg text-blue-400 mb-4 font-bold">
+        <span class="text-white font-normal">Estágio híbrido:</span><br />
+        SENAI ALAGOAS
+      </h2>
 
       <ul class="list-disc list-inside mb-4">
         <li *ngFor="let itemSenai of descricaoSenai">{{ itemSenai }}</li>
@@ -60,11 +68,16 @@
         <app-icons techName="Tailwind"></app-icons>
         <app-icons techName="Typescript"></app-icons>
         <app-icons techName="Git"></app-icons>
+        <app-icons techName="Figma"></app-icons>
+        <app-icons techName="Docker"></app-icons>
       </div>
     </div>
 
     <div class="text-white p-8 rounded-lg shadow-lg border border-blue-400">
-      <h2 class="text-lg text-blue-400 mb-4">Estágio remoto: JUCEAL</h2>
+      <h2 class="text-lg text-blue-400 mb-4 font-bold">
+        <span class="text-white font-normal">Estágio remoto:</span><br />
+        JUCEAL
+      </h2>
 
       <ul class="list-disc list-inside mb-4">
         <li *ngFor="let itemJuceal of descricaoJuceal">{{ itemJuceal }}</li>
