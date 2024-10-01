@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { IconsComponent } from '../icons/icons.component';
 
 @Component({
   selector: 'app-experiencias',
@@ -23,13 +22,13 @@ export class ExperienciasComponent {
 
   descricaoYellowKite: string[] = [
     'Treinamento para usuários de plataformas conversacionais;',
-    'Integrações com APIs do RD Conversas, RD Marketing e RD CRM para desenvolvimento de chatbots;',
-    'Automação de tarefas rotineiras dos setores de marketing da agência;',
+    'Integrações com APIs do RD Conversas, RD Marketing, RD CRM, Hablla e Bitrix24 para desenvolvimento de chatbots;',
+    'Automações com uso de IA para tarefas rotineiras dos setores de marketing e clientes da agência;',
     'Desenvolvimento de landing pages responsivas;',
     'Manutenção de sites já existentes no portfólio da empresa;',
   ];
   descricaoSoftbase: string[] = [
-    'Desenvolvimento Full-Stack;',
+    'Desenvolvimento Front e Back;',
     'Reprodução de telas Front-End com base no Figma;',
     'Metodologia Scrum;',
     'Controle de versão - GIT;',

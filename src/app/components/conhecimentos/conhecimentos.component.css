@@ -1,8 +1,8 @@
 .icons-container app-icons {
   transition: transform 0.2s ease-in-out;
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 .icons-container app-icons:hover {
-  transform: scale(1.5);
+  transform: scale(1.8);
 }
