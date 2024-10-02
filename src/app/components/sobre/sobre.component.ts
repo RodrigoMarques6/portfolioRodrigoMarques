@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class SobreComponent {
   sobreMim1: string =
-    'Meu nome é Rodrigo Marques de Lima, tenho 28 anos de idade e moro em Maceió-AL. Sou estudante de análise e desenvolvimento de sistemas e estou em busca da minha primeira oportunidade na área de programação, com foco em linguagens utilizadas na web.';
+    'Meu nome é Rodrigo Marques de Lima, tenho 28 anos de idade e moro em Maceió-AL. Sou formado em Análise e Desenvolvimento de Sistemas e tenho quase 2 anos de experiência na área de programação, com foco em linguagens utilizadas na web.';
   sobreMim2: string =
-    'Sempre estou buscando estudar e desenvolver projetos web, em maior parte no Front-end, visando ampliar meus conhecimentos na área, bem como ganhar expertise para os desafios propostos.';
+    'Atuo principalmente no desenvolvimento Front-End, sempre buscando ampliar meus conhecimentos e ganhar expertise para enfrentar novos desafios. Minhas formações em Administração e Ciências Contábeis complementam minhas habilidades, proporcionando uma visão diferenciada para o desenvolvimento de soluções. Sou apaixonado por criar experiências de usuário cativantes, autodidata e sempre pronto para contribuir com soluções criativas';
   curriculo: string = 'Visualizar currículo';
 }
