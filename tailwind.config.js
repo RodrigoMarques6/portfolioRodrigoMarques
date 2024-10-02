@@ -73,6 +73,7 @@ module.exports = {
       backgroundImage: {
         "carrousel-1": "url('/assets/images/carrousel-1.jpeg')",
         "carrousel-133": "url('/assets/images/carrousel-133.jpeg')",
+        "programming": "url('/assets/imagens/programming.jpg)"
       },
     },
   },

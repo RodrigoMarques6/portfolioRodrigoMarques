@@ -14,6 +14,4 @@ export class MenuComponent {
     { text: 'Experiências', url: '#experiencias' },
     { text: 'Contato', url: '#contato' },
   ];
-  
-
 }
