@@ -16,7 +16,7 @@ export class ExperienciasComponent {
     'Reprodução de telas Front-End com base no Figma;',
     'Metodologia Scrum: daily, planning, retrospectiva e review;',
     'Azure Devops para organização de tasks;',
-    'Controle de versão - GIT;',
+    'Controle de versão em atuação com grandes times - GIT;',
     'Suporte Técnico em sistemas web por email.',
   ];
 
