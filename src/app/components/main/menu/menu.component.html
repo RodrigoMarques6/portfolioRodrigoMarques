@@ -5,7 +5,7 @@
     class="max-w-screen-xl mx-auto flex items-center justify-between p-6 lg:px-8"
     aria-label="Global"
   >
-    <div class="flex lg:flex-1">
+    <div class="flex">
       <span class="text-blue-400 text-xl font-bold"
         >Rodrigo<span class="text-white">Marques</span>.</span
       >
@@ -14,11 +14,43 @@
       <ng-container *ngFor="let item of menuItems">
         <a
           [href]="item.url"
-          class="text-white font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-blue-500 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"
+          class="text-white font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-blue-500 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 hover:text-blue-400"
         >
           {{ item.text }}
         </a>
       </ng-container>
     </div>
+    <div>
+      <button>
+        <svg
+          class="ham hamRotate ham8"
+          viewBox="0 0 100 100"
+          width="55"
+          onclick="this.classList.toggle('active')"
+        >
+          <path
+            class="line top"
+            d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+          />
+          <path class="line middle" d="m 30,50 h 40" />
+          <path
+            class="line bottom"
+            d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+          />
+        </svg>
+      </button>
+    </div>
   </nav>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+
+  <a
+    href="https://api.whatsapp.com/send?phone=5582996983237"
+    target="”_blank”"
+    class="whatsapp-btn"
+  >
+    <i class="bi bi-whatsapp"></i>
+  </a>
 </header>
