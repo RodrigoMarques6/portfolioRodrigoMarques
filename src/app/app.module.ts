@@ -15,6 +15,8 @@ import { IconsComponent } from './components/main/icons/icons.component';
 import { MainComponent } from './components/main/main.component';
 import { ConhecimentosComponent } from './components/main/conhecimentos/conhecimentos.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { SobreMimComponent } from './components/hero/sobre-mim/sobre-mim.component';
+import { AppRoutingModule } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { HeroComponent } from './components/hero/hero.component';
     IconsComponent,
     MainComponent,
     HeroComponent,
+    SobreMimComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +39,7 @@ import { HeroComponent } from './components/hero/hero.component';
     MatMenuModule,
     MatRadioModule,
     MatIconModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
