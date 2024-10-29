@@ -25,19 +25,23 @@
         >
           {{ sobreMim1 }}
         </p>
-        <button
-          class="px-4 py-2 border border-blue-500 text-blue-500 text-lg font-bold rounded-sm hover:bg-blue-500 hover:text-white"
-          routerLink="sobre-mim"
-        >
-          <p class="linear-wipe">Sobre mim</p>
-        </button>
-        <a
-          href=""
-          id="btn-curriculo"
-          download=""
-          class="px-4 py-2 border border-blue-500 text-blue-500 text-lg font-bold rounded-sm hover:bg-blue-500 hover:text-white"
-          >{{ curriculo }}</a
-        >
+        <div class="gap-x-6 flex justify-center">
+          <div>
+            <button
+              class="px-4 py-2 border border-blue-500 text-blue-500 text-md rounded-sm hover:bg-blue-600 btn btn-border-1"
+              routerLink="sobre-mim"
+            >
+              <p class="linear-wipe">Mais sobre mim</p>
+            </button>
+          </div>
+          <div>
+            <button
+              class="px-4 py-2 border border-blue-500 text-blue-500 text-md rounded-sm hover:bg-blue-600 hover:text-white btn btn-border-1"
+            >
+              {{ curriculo }}
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

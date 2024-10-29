@@ -18,8 +18,74 @@
   animation: shine 1.7s linear infinite;
 }
 
+button:hover .linear-wipe {
+  animation: none;
+  color: #fff;
+  background: transparent;
+  background-clip: initial;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+}
+
+button:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
 @keyframes shine {
   to {
     background-position: -200% center;
   }
+}
+
+.btn {
+  position: relative;
+  transition: ease-out 0.5s;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+}
+
+.btn.btn-border-1::after,
+.btn.btn-border-1::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  visibility: hidden;
+}
+
+.btn.btn-border-1::after {
+  bottom: 0px;
+  right: 0px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: width 0.1s ease 0.1s, height 0.1s ease, visibility 0s 0.2s;
+}
+
+.btn.btn-border-1::before {
+  top: -3px;
+  left: -3px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: width 0.1s ease 0.3s, height 0.1s ease 0.2s, visibility 0s 0.4s;
+}
+
+.btn.btn-border-1:hover {
+  animation: pulse 1s ease-out 0.4s;
+}
+
+.btn.btn-border-1:hover::after,
+.btn.btn-border-1:hover::before {
+  width: calc(100% + 3px);
+  height: calc(100% + 3px);
+  visibility: visible;
+  transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
+}
+
+.btn.btn-border-1:hover::after {
+  transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
+}
+
+.btn.btn-border-1:hover::before {
+  transition: width 0.1s ease, height 0.1s ease 0.1s;
 }
