@@ -2,6 +2,8 @@
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     animation: dash 3s linear forwards, filling 2.5s ease-in forwards;
+    fill: none; 
+    
   }
   
   @keyframes dash {
