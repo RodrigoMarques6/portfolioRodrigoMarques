@@ -1,8 +1,51 @@
-.icons-container app-icons {
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.5);
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1.8);
+  }
 }
 
-.icons-container app-icons:hover {
-  transform: scale(1.8);
+.icons-container app-icons {
+  animation: pulse 1s ease-in-out;
+  transform-origin: center;
+  animation-fill-mode: both;
+}
+
+.icons-container app-icons:nth-child(1) {
+  animation-delay: 0s;
+}
+.icons-container app-icons:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.icons-container app-icons:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.icons-container app-icons:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.icons-container app-icons:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.icons-container app-icons:nth-child(6) {
+  animation-delay: 1.5s;
+}
+.icons-container app-icons:nth-child(7) {
+  animation-delay: 1.8s;
+}
+.icons-container app-icons:nth-child(8) {
+  animation-delay: 2.1s;
+}
+.icons-container app-icons:nth-child(9) {
+  animation-delay: 2.4s;
+}
+.icons-container app-icons:nth-child(10) {
+  animation-delay: 2.7s;
+}
+.icons-container app-icons:nth-child(11) {
+  animation-delay: 3s;
+}
+.icons-container app-icons:nth-child(12) {
+  animation-delay: 3.3s;
 }
