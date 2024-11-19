@@ -1,5 +1,6 @@
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1.5);
   }
   50% {
@@ -8,9 +9,9 @@
 }
 
 .icons-container app-icons {
-  animation: pulse 1s ease-in-out;
+  animation: pulse 4s ease-in-out forwards;
   transform-origin: center;
-  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 .icons-container app-icons:nth-child(1) {
