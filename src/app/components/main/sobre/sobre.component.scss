@@ -89,8 +89,8 @@ button:hover {
 .btn.btn-border-1:hover::before {
   transition: width 0.1s ease, height 0.1s ease 0.1s;
 }
-
-body, html {
+body,
+html {
   height: 100%;
   background: #fff;
 }
@@ -99,9 +99,7 @@ body, html {
   position: relative;
   display: inline-block;
   padding: 12px 24px;
-  font-size: 1rem;
   font-weight: 500;
-  font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   color: white;
   border: 2px solid #5a99d4;
