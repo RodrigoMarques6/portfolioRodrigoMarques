@@ -12,17 +12,19 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div class="text-white p-8 rounded-lg shadow-lg border border-blue-400">
           <h2 class="text-lg font-bold text-blue-400 mb-4">
-            YELLOW KITE DIGITAL 360<br />
+            YELLOW KITE DIGITAL 360º<br />
             <span class="text-white font-normal">
-              Suporte técnico e automação de chatbot</span
+              Desenvolvimento, suporte técnico e automação de chatbots</span
             >
           </h2>
-          <ul class="list-disc list-inside mb-4">
+          <ul class="list-disc list-inside mb-4 text-justify leading-loose">
             <li *ngFor="let itemYellow of descricaoYellowKite">
               {{ itemYellow }}
             </li>
           </ul>
-          <div class="max-sm:grid max-sm:grid-cols-5 flex space-x-2">
+          <div
+            class="max-sm:grid max-sm:grid-cols-5 space-x-2 grid grid-cols-5 gap-y-4 px-4 max-sm:px-0"
+          >
             <app-icons techName="HTML5"></app-icons>
             <app-icons techName="CSS3"></app-icons>
             <app-icons techName="Wordpress"></app-icons>
@@ -44,12 +46,14 @@
             <span class="text-white font-normal">Desenvolvedor Full-Stack</span>
           </h2>
 
-          <ul class="list-disc list-inside mb-4">
+          <ul class="list-disc list-inside mb-4 text-justify leading-loose">
             <li *ngFor="let itemSoftbase of descricaoSoftbase">
               {{ itemSoftbase }}
             </li>
           </ul>
-          <div class="max-sm:grid max-sm:grid-cols-5 flex space-x-2">
+          <div
+            class="max-sm:grid max-sm:grid-cols-5 max-sm:gap-y-4 space-x-2 grid grid-cols-5 gap-y-4 px-4 max-sm:px-0"
+          >
             <app-icons techName="HTML5"></app-icons>
             <app-icons techName="Angular"></app-icons>
             <app-icons techName="Javascript"></app-icons>
@@ -68,11 +72,13 @@
             <span class="text-white font-normal">Desenvolvedor Front-End</span>
           </h2>
 
-          <ul class="list-disc list-inside mb-4">
+          <ul class="list-disc list-inside mb-4 text-justify leading-loose">
             <li *ngFor="let itemSenai of descricaoSenai">{{ itemSenai }}</li>
           </ul>
 
-          <div class="max-sm:grid max-sm:grid-cols-4 flex space-x-2">
+          <div
+            class="max-sm:grid max-sm:grid-cols-5 max-sm:gap-y-4 max-sm:gap-x-4 space-x-2 grid grid-cols-5 gap-y-4 px-4 max-sm:px-0"
+          >
             <app-icons techName="HTML5"></app-icons>
             <app-icons techName="CSS3"></app-icons>
             <app-icons techName="Angular"></app-icons>
@@ -93,18 +99,9 @@
             >
           </h2>
 
-          <ul class="list-disc list-inside mb-4">
+          <ul class="list-disc list-inside mb-4 text-justify leading-loose">
             <li *ngFor="let itemJuceal of descricaoJuceal">{{ itemJuceal }}</li>
           </ul>
-          <div class="flex space-x-2">
-            <span class="bg-green-500 text-white text-sm px-2 py-1 rounded-full"
-              >Online</span
-            >
-            <span
-              class="bg-purple-700 text-white text-sm px-2 py-1 rounded-full"
-              >Typescript</span
-            >
-          </div>
         </div>
       </div>
     </section>
@@ -119,5 +116,4 @@
     aria-hidden="true"
     class="absolute inset-0 w-full h-full bg-[#020314] opacity-80"
   ></div>
-  <p class="text-white">ADICIONAR AQUI EXPERIÊNCIAS DE OUTROS CURSOS</p>
 </section>
