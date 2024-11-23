@@ -131,3 +131,43 @@ html {
     box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
   }
 }
+
+@keyframes rotateAndShift {
+  0% {
+    transform: rotate(0deg) translateX(0) translateY(0);
+    opacity: 0.9;
+  }
+  25% {
+    transform: rotate(90deg) translateX(-60px) translateY(20px);
+    opacity: 0.8;
+  }
+  50% {
+    transform: rotate(180deg) translateX(60px) translateY(-20px);
+    opacity: 0.7;
+  }
+  75% {
+    transform: rotate(270deg) translateX(-30px) translateY(10px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: rotate(360deg) translateX(0) translateY(0);
+    opacity: 0.9;
+  }
+}
+
+section .bg-layers {
+  position: absolute;
+  width: 160%;
+  height: 80%;
+  background: radial-gradient(
+    ellipse,
+    rgba(34, 211, 238, 1) 0%,
+    rgba(59, 130, 246, 1) 50%,
+    rgba(139, 92, 246, 1) 100%
+  );
+  filter: blur(80px);
+  animation: rotateAndShift 10s ease-in-out infinite;
+  opacity: 1;
+  transform-origin: center;
+  will-change: transform;
+}

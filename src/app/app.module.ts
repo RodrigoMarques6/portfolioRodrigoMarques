@@ -17,6 +17,7 @@ import { ConhecimentosComponent } from './components/main/conhecimentos/conhecim
 import { HeroComponent } from './components/hero/hero.component';
 import { SobreMimComponent } from './components/hero/sobre-mim/sobre-mim.component';
 import { AppRoutingModule } from './app.routing';
+import { CurriculoComponent } from './components/hero/curriculo/curriculo.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AppRoutingModule } from './app.routing';
     MainComponent,
     HeroComponent,
     SobreMimComponent,
+    CurriculoComponent,
   ],
   imports: [
     BrowserModule,
