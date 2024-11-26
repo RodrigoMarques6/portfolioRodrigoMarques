@@ -1,17 +1,15 @@
 <section
-  class="relative py-10 flex flex-col items-center bg-cyan-900 overflow-hidden md:py-20 border-b-2 border-blue-500 min-h-screen"
+  class="relative py-10 flex flex-col items-center bg-cyan-900 overflow-hidden lg:py-20 border-b-2 border-blue-500 min-h-screen"
 >
   <div class="relative z-[1] container m-auto">
     <div class="bg-hero-image bg-cover">
-      <div class="p-2 sm:p-16 md:p-16 lg:p-16 xl:p-16">
+      <div class="p-2 lg:p-16 xl:p-16">
         <div
           class="grid max-w-screen-xl px-4 sm:py-16 py-16 sm:mt-0 mt-6 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12"
         >
-          <div
-            class="mr-auto place-self-center lg:col-span-6 text-2xl w-full max-sm:flex max-sm:flex-col max-sm:items-center"
-          >
+          <div class="mr-auto place-self-center lg:col-span-6 text-2xl w-full">
             <div>
-              <p class="text-white">
+              <p class="text-white text-xl md:text-2xl">
                 Olá,
                 <svg height="60">
                   <text
@@ -28,10 +26,12 @@
                 </svg>
               </p>
             </div>
-            <div class="flex gap-x-2 max-sm:block">
-              <div><span class="text-white">Me chamo</span></div>
+            <div class="md:flex gap-x-2 max-sm:block">
+              <div>
+                <span class="text-white text-xl md:text-2xl">Me chamo</span>
+              </div>
               <div class="mt-1">
-                <span>
+                <span class="text-xl md:text-2xl">
                   <svg height="60">
                     <text
                       x="0"
@@ -48,13 +48,16 @@
                 </span>
               </div>
             </div>
-
-            <p class="max-w-2xl text-white lg:mb-8 md:text-sm lg:text-md">
+            <p
+              class="max-w-2xl text-white lg:mb-8 text-md md:text-sm lg:text-md"
+            >
               Sou Desenvolvedor Front-End
             </p>
           </div>
 
-          <div class="lg:col-span-6 flex justify-center items-center border border-blue-800 rounded-md">
+          <div
+            class="lg:col-span-6 flex justify-center items-center border border-blue-800 rounded-md"
+          >
             <iframe
               src="https://drive.google.com/file/d/1Aw3d1WPeasaWH2QL8MI3bZyNJpyJdz-U/preview?usp=sharing"
               width="100%"
@@ -68,14 +71,14 @@
     </div>
   </div>
   <div
-  aria-hidden="true"
-  class="absolute h-full inset-0 flex items-center justify-center"
->
-  <div
     aria-hidden="true"
-    class="bg-layers bg-scale w-[120rem] h-[120rem] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-full blur-3xl md:w-[60rem] md:h-[60rem] md:blur-3xl"
-  ></div>
-</div>
+    class="absolute h-full inset-0 flex items-center justify-center"
+  >
+    <div
+      aria-hidden="true"
+      class="bg-layers bg-scale w-[120rem] h-[120rem] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-full blur-3xl md:w-[60rem] md:h-[60rem] md:blur-3xl"
+    ></div>
+  </div>
   <div
     aria-hidden="true"
     class="absolute inset-0 w-full h-full bg-[#020314] opacity-80"
