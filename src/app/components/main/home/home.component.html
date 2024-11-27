@@ -1,11 +1,11 @@
 <section
   class="relative py-10 flex flex-col items-center bg-cyan-900 overflow-hidden lg:py-20 border-b-2 border-blue-500 min-h-screen"
 >
-  <div class="relative z-[1] container m-auto">
+  <div class="relative z-[1] m-auto w-full">
     <div class="bg-hero-image bg-cover">
       <div class="p-2 lg:p-16 xl:p-16">
         <div
-          class="grid max-w-screen-xl px-4 sm:py-16 py-16 sm:mt-0 mt-6 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12"
+          class="max-w-screen-xl px-4 sm:py-16 py-16 sm:mt-0 mt-6 mx-auto lg:gap-8 xl:gap-0 md:flex"
         >
           <div class="mr-auto place-self-center lg:col-span-6 text-2xl w-full">
             <div>
@@ -26,9 +26,9 @@
                 </svg>
               </p>
             </div>
-            <div class="md:flex gap-x-2 max-sm:block">
+            <div class="lg:flex gap-x-2 max-sm:block">
               <div>
-                <span class="text-white text-xl md:text-2xl">Me chamo</span>
+                <span class="text-white text-xl">Me chamo</span>
               </div>
               <div class="mt-1">
                 <span class="text-xl md:text-2xl">
@@ -56,12 +56,24 @@
           </div>
 
           <div
-            class="lg:col-span-6 flex justify-center items-center border border-blue-800 rounded-md"
+            class="lg:col-span-6 flex justify-center items-center lg:border lg:border-blue-800 rounded-md max-sm:hidden sm:mt-8 md:mt-0"
           >
             <iframe
               src="https://drive.google.com/file/d/1Aw3d1WPeasaWH2QL8MI3bZyNJpyJdz-U/preview?usp=sharing"
-              width="100%"
+              width="600"
               height="315"
+              allow="autoplay"
+              class="rounded-lg shadow-lg"
+            ></iframe>
+          </div>
+
+          <div
+            class="lg:col-span-6 flex justify-center items-center rounded-md sm:hidden mt-10"
+          >
+            <iframe
+              src="https://drive.google.com/file/d/1Aw3d1WPeasaWH2QL8MI3bZyNJpyJdz-U/preview?usp=sharing"
+              width="420"
+              height="215"
               allow="autoplay"
               class="rounded-lg shadow-lg"
             ></iframe>
