@@ -1,7 +1,7 @@
 <section
   class="relative py-10 flex flex-col items-center bg-cyan-900 overflow-hidden md:py-20 border-b-2 border-blue-500"
 >
-  <div class="relative z-[1] container m-auto">
+  <div class="relative z-[1] m-auto w-full">
     <div class="flex lg:flex-1 justify-center pb-6">
       <span class="text-blue-400 text-xl font-bold">
         Sobre<span class="text-white">Mim</span>.
@@ -9,9 +9,9 @@
     </div>
 
     <div
-      class="flex flex-col sm:flex-row max-w-[800px] min-w-[250px] min-h-[50vh] mx-auto text-center mt-5"
+      class="flex flex-col sm:items-center lg:flex-row lg:max-w-[800px] lg:min-w-[250px] lg:min-h-[50vh] mx-auto text-center mt-5"
     >
-      <div class="sm:w-1/2 p-5">
+      <div class="lg:w-1/2 max-sm:px-2 max-sm:ml-2 p-5 max-sm:hidden">
         <img
           id="img-perfil"
           class="w-full h-96 sm:w-auto"
@@ -19,7 +19,15 @@
           alt="Imagem de Perfil - Rodrigo Marques"
         />
       </div>
-      <div class="sm:w-1/2 sm:ml-2 my-auto">
+      <div class="p-5 m-auto sm:hidden">
+        <img
+          id="img-perfil"
+          class="w-64"
+          src="../../../assets/images/img-sobre.png"
+          alt="Imagem de Perfil - Rodrigo Marques"
+        />
+      </div>
+      <div class="lg:w-1/2 max-sm:px-2 max-sm:ml-2 sm:ml-2 my-auto">
         <p
           class="text-white text-justify p-2 max-w-[800px] min-w-[250px] mx-auto mb-2 leading-loose"
         >
@@ -28,7 +36,7 @@
         <div class="gap-x-6 flex justify-center mt-6">
           <div>
             <button
-              class="pulse-button px-4 py-2 border border-blue-500 text-blue-500 text-md rounded-sm hover:bg-blue-600 btn btn-border-1"
+              class="pulse-button px-4 py-2 border border-blue-500 text-blue-500 text-md rounded-sm hover:bg-blue-600 btn btn-border-1 max-sm:text-sm"
               routerLink="sobre-mim"
             >
               <p class="linear-wipe">Mais sobre mim</p>
@@ -36,7 +44,7 @@
           </div>
           <div>
             <button
-              class="px-4 py-2 border border-blue-500 text-blue-500 text-md rounded-sm hover:bg-blue-600 hover:text-white btn btn-border-1"
+              class="px-4 py-2 border border-blue-500 text-blue-500 text-md rounded-sm hover:bg-blue-600 hover:text-white btn btn-border-1 max-sm:text-sm"
               routerLink="curriculo-rodrigo-marques"
             >
               {{ curriculo }}
